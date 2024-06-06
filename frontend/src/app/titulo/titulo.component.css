@@ -1,0 +1,12 @@
+.banner{
+    text-align: center;
+}
+
+.text-header{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 35px;
+}

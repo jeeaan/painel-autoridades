@@ -1,0 +1,51 @@
+.geral {
+  text-align: center;
+  background-color: gray;
+  background-image: radial-gradient(
+    rgba(0, 100, 255, 0.75), black 120%
+  );
+  color: white;
+  font: 1.6rem Inconsolata, monospace;
+  text-shadow: 0 0 2px #C8C8C8;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.superior {
+  display: flex;
+  justify-content: space-around;
+}
+
+.c2i {
+    position: static;
+    text-align: center;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+}
+
+.chefe,
+.subchefe {
+    margin: 0 10px;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.imagem-central {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.imagem-central img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}

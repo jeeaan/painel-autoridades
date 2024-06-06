@@ -1,0 +1,14 @@
+.insignia {
+  padding-top: 80px;
+}
+
+.presente {
+  width: 460px;
+  height: 320px;
+  border-radius: 10px;
+}
+
+.ausente {
+  width: 270px;
+  height: 270px;
+}

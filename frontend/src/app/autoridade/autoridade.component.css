@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Arial", Times, serif;
+  border-radius: 100px;
+}
+
+.card img {
+  width: 205px;
+  height: 205px;
+  border-radius: 50px;
+  /* Adiciona borda vermelha quando a classe .ausente está presente */
+  border: 3px solid transparent;
+}
+
+.card img.ausente {
+  border-color: red;
+}
+
+.card img.presente {
+  border-color: green;
+}
+
+.card p {
+  font-size: 20px; 
+}
+
+.ausente {
+  filter: grayscale(100%);
+}
