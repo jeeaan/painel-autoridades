@@ -14,7 +14,10 @@ export class EstadoComponent implements OnInit {
   constructor(private estadoService: EstadoService) {}
 
   ngOnInit(): void {
-    // Chama o método getEstado ao inicializar o componente
+    this.carregarEstado();
+  }
+
+  carregarEstado(): void {
     this.estadoService.getEstado(this.nrBotao).subscribe(
       (response) => {
         this.estado = response.state;
