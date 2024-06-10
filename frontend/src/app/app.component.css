@@ -1,8 +1,9 @@
 .geral {
   text-align: center;
-  background-color: gray;
+  background-color: #1c1c1c; /* fundo preto acinzentado */
   background-image: radial-gradient(
-    rgba(0, 100, 255, 0.75), black 120%
+    rgba(50, 50, 50, 0.75), /* cinza escuro translúcido */
+    rgba(10, 10, 10, 1) 120% /* preto */
   );
   color: white;
   font: 1.6rem Inconsolata, monospace;

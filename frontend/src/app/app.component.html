@@ -5,14 +5,14 @@
 
   <div class="superior">
     <div class="c2i">
-      <p>Comando, Controle e Informação</p>
+      <p>Casa Stark</p>
       <div class="imagens">
         <div class="chefe">
-          <app-autoridade [nrBotao]="'1'" [estado]="estadoChefe" [nome]="'Gen Div Wolski'" [imagem]="'../assets/imagens/wolski.jpeg'"></app-autoridade>
+          <app-autoridade [nrBotao]="'1'" [estado]="estadoChefe" [nome]="'Jon Snow'" [imagem]="'../assets/imagens/01.jpg'"></app-autoridade>
           <app-estado [nrBotao]="'1'" (estadoAlterado)="atualizarEstado('1', $event)"></app-estado>
         </div>
         <div class="subchefe">
-          <app-autoridade [nrBotao]="'2'" [estado]="estadoSubchefe" [nome]="'Cel Saulo (ATC2I)'" [imagem]="'../assets/imagens/saulo.jpeg'"></app-autoridade>
+          <app-autoridade [nrBotao]="'2'" [estado]="estadoSubchefe" [nome]="'Arya Stark'" [imagem]="'../assets/imagens/02.jpg'"></app-autoridade>
           <app-estado [nrBotao]="'2'" (estadoAlterado)="atualizarEstado('2', $event)"></app-estado>
         </div>
       </div>
@@ -20,14 +20,14 @@
     </div>
 
     <div class="c2i">
-      <p>Diretoria de Fabricação</p>
+      <p>Casa Lannister</p>
       <div class="imagens">
         <div class="chefe">
-          <app-autoridade [nrBotao]="'3'" [estado]="estadoDiretoria" [nome]="'Gen Div Tales Villela'" [imagem]="'../assets/imagens/cmt_df.jpg'"></app-autoridade>
+          <app-autoridade [nrBotao]="'3'" [estado]="estadoDiretoria" [nome]="'Jaime Lannister'" [imagem]="'../assets/imagens/03.jpg'"></app-autoridade>
           <app-estado [nrBotao]="'3'" (estadoAlterado)="atualizarEstado('3', $event)"></app-estado>
         </div>
         <div class="subchefe">
-          <app-autoridade [nrBotao]="'4'" [estado]="estadoSubdiretoria" [nome]="'Cel Prado (DF)'" [imagem]="'../assets/imagens/prado.jpeg'"></app-autoridade>
+          <app-autoridade [nrBotao]="'4'" [estado]="estadoSubdiretoria" [nome]="'Cersei Lannister'" [imagem]="'../assets/imagens/04.jpg'"></app-autoridade>
           <app-estado [nrBotao]="'4'" (estadoAlterado)="atualizarEstado('4', $event)"></app-estado>
         </div>
       </div>
@@ -36,7 +36,7 @@
   </div>
 
   <div class="imagem-central">
-    <img src="../assets/imagens/3estrelas.png">
+    <app-relogio></app-relogio>
   </div>
 
 </div>

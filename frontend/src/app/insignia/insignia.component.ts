@@ -10,10 +10,10 @@ export class InsigniaComponent implements OnChanges {
   @Input() estadoDiretoria?: string;
   urlInsignia: string = '';
 
-  urlChefePresente: string = '../assets/imagens/gen_div_sem_funcao.jpg';
-  urlChefeAusente: string = '../assets/imagens/dct.gif';
-  urlDiretoriaPresente: string = '../assets/imagens/gen_div_df.jpeg';
-  urlDiretoriaAusente: string = '../assets/imagens/df.png';
+  urlChefePresente: string = '../assets/imagens/stark_flag.jpg';
+  urlChefeAusente: string = '../assets/imagens/stark.png';
+  urlDiretoriaPresente: string = '../assets/imagens/lannister_flag.jpg';
+  urlDiretoriaAusente: string = '../assets/imagens/lannister.svg';
 
   constructor() {}
 

@@ -9,7 +9,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 export class CarrosselComponent {
 
   constructor(private sanitizer: DomSanitizer) {
-    this.iframeUrl = this.sanitizer.bypassSecurityTrustResourceUrl('http://intranet.dct.eb.mil.br/#camera_wrap_425');
+    this.iframeUrl = this.sanitizer.bypassSecurityTrustResourceUrl('http://intranet.cds.eb.mil.br/#camera_wrap_425');
   }
 
   iframeUrl: SafeResourceUrl;
